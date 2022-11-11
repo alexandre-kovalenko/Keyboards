@@ -7,7 +7,8 @@ android {
     defaultConfig {
         applicationId "org.noip.rabbitsden.sunny.ru_and_ukr_keyboard_layouts"
         minSdkVersion 29
-        targetSdkVersion 33
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
     }

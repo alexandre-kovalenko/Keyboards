@@ -1,2 +1,1 @@
-class HWKeyboardReceiver {
-}
+class HWKeyboardReceiver
