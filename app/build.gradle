@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 33
 
     defaultConfig {
-        applicationId "ris58h.custom_keyboard_layout"
-        minSdkVersion 16
-        targetSdkVersion 29
+        applicationId "org.noip.rabbitsden.sunny.ru_and_ukr_keyboard_layouts"
+        minSdkVersion 29
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
     }
@@ -18,4 +18,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'org.noip.rabbitsden.sunny.ru_and_ukr_keyboard_layouts'
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:+'
 }

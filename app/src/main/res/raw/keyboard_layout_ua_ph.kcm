@@ -1,0 +1,30 @@
+type OVERLAY
+
+### Number row
+
+key GRAVE {
+    label:                              '\u042e'
+    base:                               '\u044e'
+    shift, capslock:                    '\u042e'
+    ralt:                               '`'
+    ralt+shift:                         '~'
+}
+
+key 3 {
+    label:                              '\u0401'
+    base:                               '\u0451'
+    shift, capslock:                    '\u0401'
+    ralt:                               '3'
+    ralt+shift:                         '#'
+}
+
+key 5 {
+    label:                              '\u042a'
+    base:                               '\u044a'
+    shift, capslock:                    '\u042a'
+    ralt:                               '5'
+    ralt+shift:                         '%'
+}
+
+
+

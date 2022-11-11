@@ -1,2 +1,2 @@
-rootProject.name='custom-keyboard-layout'
+rootProject.name='ru_and_ukr_keyboard_layouts'
 include ':app'
