@@ -11,18 +11,37 @@ key GRAVE {
 }
 
 key 3 {
-    label:                              '\u0401'
-    base:                               '\u0451'
-    shift, capslock:                    '\u0401'
+    label:                              '\u0451'
+    base:                               '3'
+    shift, capslock:                    '\u0451'
     ralt:                               '3'
     ralt+shift:                         '#'
 }
 
+key 4 {
+    label:                              '\u0401'
+    base:                               '4'
+    shift, capslock:                    '\u0401'
+    ralt:                               '4'
+    ralt+shift:                         '$'
+}
+
+
 key 5 {
-    label:                              '\u042a'
-    base:                               '\u044a'
-    shift, capslock:                    '\u042a'
+    label:                              '\u044a'
+    base:                               '5'
+    shift, capslock:                    '\u044a'
     ralt:                               '5'
     ralt+shift:                         '%'
 }
+
+key 6 {
+    label:                              '\u042a'
+    base:                               '6'
+    shift, capslock:                    '\u042a'
+    ralt:                               '6'
+    ralt+shift:                         '^'
+}
+
+### Q row
 
