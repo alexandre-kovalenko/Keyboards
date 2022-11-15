@@ -43,6 +43,14 @@ type OVERLAY
      ralt+shift:                         '^'
  }
 
+ key EQUALS {
+     label:                              '\u0427'
+     base:                               '\u0447'
+     shift, capslock:                    '\u0427'
+     ralt:                               '='
+     ralt+shift:                         '+'
+ }
+
  ### Q row
 
  key Q {
