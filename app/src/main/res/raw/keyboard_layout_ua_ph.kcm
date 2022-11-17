@@ -170,9 +170,9 @@ type OVERLAY
  }
 
  key J {
-     label:                              '\u0439'
-     base:                               '\u0419'
-     shift, capslock:                    '\u0439'
+     label:                              '\u0419'
+     base:                               '\u0439'
+     shift, capslock:                    '\u0419'
  }
 
  key K {
