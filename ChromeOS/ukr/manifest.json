@@ -1,0 +1,22 @@
+{
+  "name": "Ukrainian (UA, phonetic)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Sunny-branded ukrainian phonetic keyboard layout",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Ukrainian (UA, phonetic)",
+      "type": "ime",
+      "id": "phonetic_ua",
+      "description": "Sunny-branded ukrainian phonetic keyboard layout",
+      "language": "ua-ua",
+      "layouts": ["ua"]
+    }
+  ]
+}
