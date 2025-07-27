@@ -1,7 +1,7 @@
 {
   "name": "Russian (RU, phonetic)",
   "version": "1.0",
-  "manifest_version": 1,
+  "manifest_version": 3,
   "description": "Sunny-branded russian phonetic keyboard layout",
   "background": {
     "service_worker": "background.js"
