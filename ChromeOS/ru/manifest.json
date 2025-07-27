@@ -1,0 +1,22 @@
+{
+  "name": "Russian (RU, phonetic)",
+  "version": "1.0",
+  "manifest_version": 1,
+  "description": "Sunny-branded russian phonetic keyboard layout",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Russian (RU, phonetic)",
+      "type": "ime",
+      "id": "phonetic_ru",
+      "description": "Sunny-branded russian phonetic keyboard layout",
+      "language": "ru-ru",
+      "layouts": ["ru"]
+    }
+  ]
+}
